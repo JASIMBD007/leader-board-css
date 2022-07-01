@@ -9,11 +9,61 @@ body {
 }
 
 header {
-    position: absolute;
     width: 1440px;
-    height: 94px;
-    background: #562EFF;
+    height: 125px;
+    background-color: #562EFF;
     margin-bottom: 33px;
+
+}
+
+label.logo {
+    color: #FFFFFF;
+    font-size: 24px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.logo .logo-image {
+    width: 40px;
+    height: 51px;
+    margin-top: 26px;
+
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    /* margin-right: 20px; */
+    margin: 20px;
+    padding-top: 0px;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 80px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+
+nav>ul>li>a {
+    text-decoration: none;
+}
+
+#profile {
+    width: 51px;
+    height: 51px;
+}
+
+a:hover {
+    background: #AEAEAE;
 }
 
 main {
