@@ -8,20 +8,35 @@ body {
     background-color: #F3F1FF;
 }
 
+header {
+    position: absolute;
+    width: 1440px;
+    height: 94px;
+    background: #562EFF;
+    margin-bottom: 33px;
+}
+
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 33px;
 }
 
 .container {
     background-color: #FFFFFF;
     width: 870px;
     padding: 30px;
+    margin-top: 24px;
+    border-radius: 5px;
 
 }
 
 hr {
     border: 1px solid #D1D1D1;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
 
@@ -58,6 +73,8 @@ hr {
 /* -------top blog styles section -------------- */
 .blogs {
     display: grid;
+    grid-row-gap: 26px;
+    grid-column-gap: 79px;
     grid-template-columns: auto auto;
 }
 
@@ -89,3 +106,81 @@ hr {
     color: #562EFF;
     text-decoration: none;
 }
+
+/* course style section */
+
+.course-banner img {
+    width: 224px;
+    height: 104px;
+    margin: 17px;
+}
+
+.box-shadow {
+    background: #FFFFFF;
+    border-radius: 5px;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+    margin-left: 23px;
+}
+
+.course-title {
+    font-size: 20.0336px;
+    margin-top: 16.03px;
+    margin-left: 12px;
+}
+
+.latest-courses {
+    display: flex;
+}
+
+.course-author {
+    font-weight: 400;
+    font-size: 14.6913px;
+    color: #ED6B4F;
+    margin-left: 13px;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.filled {
+    color: #FFC014;
+}
+
+.empty {
+    color: #AEAEAE;
+    opacity: 0.25;
+}
+
+.course-rating {
+    margin-left: 11px;
+}
+
+.course-duration {
+    font-size: 15px;
+    color: #FF4A60;
+    border-radius: 14.6913px;
+    background: #FFE4E8;
+    margin-left: 26px;
+    padding: 6px;
+
+}
+
+
+/* ------------------
+    media queires 
+   ------------------
+    */
+
+
+/*--------------------
+ Mobile Devices 
+ ---------------------*/
+
+@media screen {}
